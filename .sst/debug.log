@@ -1,0 +1,14 @@
+2023-07-16T00:04:38.413Z   +403ms [debug] Config loaded {"version":"2.21.7","cdkVersion":"2.84.0","constructsVersion":"10.1.156","config":{"name":"my-app","region":"eu-west-2","stage":"sennett","ssmPrefix":"/sst/my-app/sennett/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":218,"imports":[{"path":"sst","kind":"import-statement","external":true},{"path":"sst/constructs","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1689465878364.mjs":{"imports":[],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":121}},"bytes":303}}},"paths":{"config":"/Users/sennett/git/spikes/sst-env-vars/my-app/sst.config.ts","root":"/Users/sennett/git/spikes/sst-env-vars/my-app","out":"/Users/sennett/git/spikes/sst-env-vars/my-app/.sst","artifacts":"/Users/sennett/git/spikes/sst-env-vars/my-app/.sst/artifacts"}}
+2023-07-16T00:04:39.609Z  +1196ms [debug] Using AWS profile 
+2023-07-16T00:04:39.627Z    +18ms [debug] Created AWS client IoTClient
+2023-07-16T00:04:39.627Z     +0ms [debug] Getting IoT endpoint
+2023-07-16T00:04:39.698Z    +71ms [debug] Using IoT endpoint: a2wegwm7tsas02-ats.iot.eu-west-2.amazonaws.com
+2023-07-16T00:04:39.698Z     +0ms [debug] Initializing bootstrap context
+2023-07-16T00:04:39.699Z     +1ms [debug] Created AWS client CloudFormationClient
+2023-07-16T00:04:39.808Z   +109ms [debug] Loaded bootstrap status
+2023-07-16T00:04:39.808Z     +0ms [debug] Bootstrap context initialized {"version":"7.2","bucket":"sstbootstrap-euwest292dc64b9-1nlmdyxl39kv4"}
+2023-07-16T00:04:39.809Z     +1ms [debug] Created AWS client S3Client
+2023-07-16T00:04:39.848Z    +39ms [debug] Fetching all metadata
+2023-07-16T00:04:39.915Z    +67ms [debug] IoT connected
+2023-07-16T00:04:39.916Z     +1ms [debug] Fetched metadata from 0 stacks
+2023-07-16T00:04:39.916Z     +0ms [debug] Created AWS client SSMClient
